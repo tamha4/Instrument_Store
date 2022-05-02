@@ -1,0 +1,144 @@
+*{
+    margin:0;
+}
+
+html,body{
+    height:100%;
+}
+
+body{
+    display:flex;
+}
+
+.popUp{
+    height:225%;
+    width:100%;
+    background-color:rgba(193, 193, 193, 0.66);
+    position:absolute;
+    top:0;
+    left:0;
+    /*display:none;*/
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+
+}
+
+.popUptwo {
+    height:100%;
+    width:100%;
+    background-color:rgba(193, 193, 193, 0.66);
+    position:absolute;
+    top:0;
+    left:0;
+    /*display:none;*/
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+
+}
+
+.popUpthree {
+    height:100%;
+    width:100%;
+    background-color:rgba(193, 193, 193, 0.66);
+    position:absolute;
+    top:0;
+    left:0;
+    /*display:none;*/
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.product {
+    height:250px;
+    width:170px;
+    border-radius:10px;
+    border:2px solid black;
+    box-shadow:2px 2px 2px black;
+    margin-top:10px;
+    margin-left:8px;
+    cursor:pointer;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.product:hover{
+    background-color: red;
+}
+
+.productTwo {
+    height:250px;
+    width:170px;
+    border-radius:10px;
+    border:2px solid black;
+    box-shadow:2px 2px 2px black;
+    margin-top:10px;
+    margin-left:8px;
+    cursor:pointer;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.productTwo:hover {
+    background-color: green;
+}
+
+
+.productThree {
+    height:260px;
+    width:170px;
+    border-radius:10px;
+    border:2px solid black;
+    box-shadow:2px 2px 2px black;
+    margin-top:10px;
+    margin-left:8px;
+    cursor:pointer;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.productThree:hover {
+    background-color: blue;
+}
+
+.product img{
+    /*opacity: 0.7%;*/
+    height:100px;
+}
+
+/*.fender{*/
+/*    background-color: red;*/
+/*}*/
+
+/*.fender:hover{*/
+/*    background-color:red;*/
+/*}*/
+
+/*.yamaha:hover{*/
+/*    background-color: green;*/
+/*}*/
+
+/*.maton:hover{*/
+/*    background-color: blue;*/
+/*}*/
+
+h1{
+    float: bottom ;
+}
